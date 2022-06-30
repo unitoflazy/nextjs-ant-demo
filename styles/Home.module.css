@@ -1,21 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@200&display=swap');
+
 .container {
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
+  font-family: 'Gantari', sans-serif;
+  background: steelblue;
+}
+
+.header {
+  display: flex;
+  align-items: center;
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 100vh !important;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: steelblue;
 }
 
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
@@ -106,6 +115,17 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.navbar {
+  display: flex;
+  margin: auto 10px;
+  font-size: 2rem;
+  list-style: none;
+}
+
+.navbar li {
+  margin-left: 20px;
 }
 
 @media (max-width: 600px) {
